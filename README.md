@@ -16,7 +16,7 @@ I am solving LeetCode problems consistently to:
 
 ## 💻 Programming Language
 
-- **Python 🐍**
+- **Python 🐍** && JAVA
 
 ## 📚 Topics
 
