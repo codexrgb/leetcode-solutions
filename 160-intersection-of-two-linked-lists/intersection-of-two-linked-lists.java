@@ -13,6 +13,7 @@ public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         ListNode i= headA;
         ListNode j= headB;
+        //if we use while(p1==p2) is false immediately , and loop does not execute even once
         while(i!=j){
             if(i==null){
                 i=headB;
