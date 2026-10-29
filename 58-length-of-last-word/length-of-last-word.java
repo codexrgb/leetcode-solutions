@@ -1,0 +1,18 @@
+class Solution {
+    public int lengthOfLastWord(String s) {
+        int i = s.length()-1;
+
+        // skip trailing spaces
+        while(i>=0 && s.charAt(i)==' '){
+            i--;
+        }
+        int length = 0;
+        // countcharacters of the last world
+        while(i>=0 && s.charAt(i)!=' '){
+            length++;
+            i--;
+        }
+        return length;
+        
+    }
+}
